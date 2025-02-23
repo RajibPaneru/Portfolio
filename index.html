@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -58,31 +58,96 @@
                 </div>
             </article>
         </section>
-
-        <section id="Projects">
-            <div class="projects">
-                <h2>My <span>Projects</span></h2>
-                <div class="project-container">
-                    <article class="project">
-                        <h3>Paneru-Handicraft</h3>
-                        
-                        <p>A website developed for my Father's handicraft business to provide important information about the shop and its services.</p>
-                        <p><strong>Technologies Used:</strong> HTML, CSS, JS</p>
-                        <a href="https://paneruhandicraft.netlify.app/" target="_blank" class="btn">View Project</a>
-                    </project>
-                    
-                    <project class="project">
-                        <h3>Project 2</h3>
-                        <p>Short description of the project.</p>
-                    </project>
-                    <project class="project">
-                        <h3>Project 3</h3>
-                        <p>Short description of the project.</p>
-                    </project>
-                </div>
+        
+        <!-- Projects Section -->
+        <section id="projects">
+    <div class="projects">
+        <h2>My <span>Projects</span></h2>
+        <div class="project-container">
+            <!-- Paneru Handicraft Project -->
+            <div class="project">
+                <img src="1.jpg" alt="Paneru Handicraft Website">
+                <h3>Paneru Handicraft</h3>
+                <p>A website developed for my father's handicraft business to provide important information about the shop and its services.</p>
+                <p><strong>Technologies Used:</strong> HTML, CSS, JS</p>
+                <a href="https://paneruhandicraft.netlify.app/" target="_blank" class="btn">View Project</a>
             </div>
-        </section>
 
+            <!-- Project 2 -->
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Short description of the project.</p>
+                <p><strong>Technologies Used:</strong> HTML, CSS, JS</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Short description of the project.</p>
+                <p><strong>Technologies Used:</strong> HTML, CSS, JS</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .projects {
+        text-align: center;
+        padding: 40px;
+    }
+
+    .projects h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .projects span {
+        color: #6a0dad;
+    }
+
+    .project-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .project {
+        width: 300px;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+    .project img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 15px;
+        background: #6a0dad;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .btn:hover {
+        background: #5a009a;
+    }
+</style>
+
+
+        
         <section class="contacts" id="Contact">
             <h2>Contact <span>Me</span></h2>
             <p>Feel free to reach out for collaborations or discussions!</p>
