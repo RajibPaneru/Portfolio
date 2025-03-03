@@ -86,7 +86,7 @@ body {
 }
 
 .profile-photo img {
-    width: 380px; /* Adjust size as needed */
+    width: 375px; /* Adjust size as needed */
     height: 400px;
     border-radius: 50%;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Enhanced shadow effect */
