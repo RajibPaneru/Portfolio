@@ -78,8 +78,8 @@ body {
 .profile-photo {
     position: absolute; /* Position it absolutely within .home */
     right: 20%; /* Align it to the right */
-    top: 20%; /* Center it vertically */
-    border-radius: 50%;
+    top: 10%; /* Center it vertically */
+    border-radius: 45%;
     transform: translateY(20%); /* Move it down a bit more */
     z-index: 1; /* Ensure it's in front of the home content */
     transition: all 0.3s ease; /* Smooth transition for hover effects */
