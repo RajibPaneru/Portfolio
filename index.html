@@ -62,7 +62,7 @@
         <div class="project-container">
             <!-- Paneru Handicraft Project -->
             <div class="project">
-                <img src="1.jpg" alt="Paneru Handicraft Website">
+                <img class="image1" src="1.jpg" alt="Paneru Handicraft Website">
                 <h3><br>Paneru Handicraft:</h3><br>
                 <p>A website developed for my father's handicraft business to provide important information about the shop and its services.</p>
                 <p><strong><br>Technologies Used:</strong> HTML, CSS, JS</p>
@@ -70,22 +70,21 @@
             </div>
 
             <!-- Project 2 -->
-            <div class="projec1">
-                <img src="project2.jpg" alt="Aricle on: "The Silent Battle: When the Hands That Feed Us Starve"">
-                <h3><br> Aricle on: "The Silent Battle: When the Hands That Feed Us Starve"</h3><br>
-                <p>"The Silent Battle" exposes how Nepal’s apple farmers in Mustang are trapped by middlemen who profit from their labor, while systemic gaps keep them impoverished. It advocates for cooperatives, tech access, and policy reforms to build a fairer future.</p>
-                 <p><br>                                  </br></p>
-                <a href="The Silent Battle.pdf" class="btn">Read Article</a>
+            <div class="project">
+                <img class="image2" src="project2.jpg" alt="Aricle on: The Silent Battle: When the Hands That Feed Us Starve" >
+                <h3> <br> Aricle on: "The Silent Battle: When the Hands That Feed Us Starve"</h3><br>
+                <p>"The Silent Battle" reveals how Mustang's apple farmers are exploited by middlemen and systemic gaps, urging cooperatives, tech access, and policy reforms for fairness.</p>
+               <br>  <a href="The Silent Battle.pdf" class="btn">Read Article</a>
             </div>
 
-            <!-- Project 3 -->
+            <!-- Project 3
             <div class="project2">
-                <!-- <img src="project3.jpg" alt="Project 3"> -->
-                <h3>Project 3</h3>
+                 <img src="project3.jpg" alt="Project 3"> 
+                
                 <p>Short description of the project.</p>
                 
                 <a href="#" class="btn">View Project</a>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -106,24 +105,34 @@
     }
 
     .project-container {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    padding: 20px;
+}
 
-    .project {
+.project {
+    min-width: 300px; /* Ensure a consistent width */
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+    .image1 {
         width: 300px;
-        background: black;
-        padding: 20px;
+        height: 200px;
         border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        text-align: center;
+
     }
 
-    .project img {
-        width: 100%;
-        height: auto;
+    .image2{
+        width: 300px;
+        height: 200px;
         border-radius: 10px;
     }
 
